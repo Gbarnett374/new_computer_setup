@@ -1,0 +1,11 @@
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew tap caskroom/cask
+
+brew cask install sublime-text google-chrome slack vlc vagrant virtualbox firefox kitematic docker splashtop-streamer splashtop-personal istat-menus visual-studio-code spectacle
+
+brew install bash-completion git node nvm postgresql redis csshx mysql
+
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+
+\curl -sSL https://get.rvm.io | bash -s stable
